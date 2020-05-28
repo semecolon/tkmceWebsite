@@ -9,7 +9,6 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Department</title>
   <!-- MDB icon -->
-  <link rel="stylesheet" href="css/screen.min.css">
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
@@ -26,7 +25,14 @@
   <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
   <link rel="apple-touch-icon-precomposed" href="images/favicons/apple-touch-icon-precomposed.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/screen.min.css">
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="css/dep.css">
   <script src="js/head.min.js"></script>
+</head>
+
+<body>
+
   <script>
     progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
     if (window.attachEvent) {
@@ -43,11 +49,7 @@
         window.onload = function () { progressJs().end(); };
       }
     }
-  </script>
-</head>
-
-<body>
-  <!-- Header-->
+  </script><!-- Header-->
   <!--<header class="main-header">
     <div class="first-nav">
       <div class="container">
@@ -55,8 +57,7 @@
           <ul>
             <li><a class="is-selected">TKM</a></li>
           </ul>
-        </nav>
-        <a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
+        </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
       </div>
     </div>
     <div class="second-nav js-nav">
@@ -350,38 +351,6 @@
       </div>
     </div>
   </section><!-- Contacts section-->
-  <div class="contacts-section" id="contacts">
-    <div class="container">
-      <section class="contact-card">
-        <header class="contact-card__header">
-          <h2>Contact information</h2>
-          <h4>TKM College of Engineering</h4>
-        </header>
-        <div class="contact-info">
-          <div class="contact-info__logo">TKM</div>
-          <div class="contact-info__group">
-            <div class="contact-info__vcard vcard">
-              <h4 class="fn org">TKM College</h4>
-              <p class="role title">Kollam</p>
-              <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span
-                    class="country-name">India</span>,&nbsp;<span class="locality">Kollam</span></a></p>
-              <p class="icon icon_mail"><a class="email" href="info@tkmce.ac.in">info@tkmce.ac.in</a></p>
-              <p class="icon icon_phone"><a class="email" href="tel:91 474-2712023">91 474-2712023</a></p>
-            </div>
-            <ul class="contact-info__social">
-              <li><a class="icon icon_fb" rel="nofollow">I'm on Facebook</a></li>
-              <li><a class="icon icon_twi" rel="nofollow">My Twitter</a></li>
-              <li><a class="icon icon_gplus" rel="nofollow">I'm on Google+</a></li>
-              <li><a class="icon icon_vk" rel="nofollow">I'm in Vk</a></li>
-              <li><a class="icon icon_in" rel="nofollow">My Linkedin profile</a></li>
-              <li><a class="icon icon_rss" rel="nofollow">RSS feed... maybe</a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-    <div class="gmap" id="gmap"></div>
-  </div><!-- Footer-->
   <footer class="main-footer">
     <div class="container">
       <p class="main-footer__copyright">&copy;&nbsp;<span>CSE</span></p><a

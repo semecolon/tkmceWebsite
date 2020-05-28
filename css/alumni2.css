@@ -1,0 +1,96 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.view{
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3f51b5 !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+
+.container1
+{
+  margin: 5%;
+}
+
+.set1{
+  margin-top: 15%;
+}
+
+.container3
+{
+  margin: 5%;
+  padding-top: 2%;
+}
+
+.signinsignup
+{
+  margin: auto;
+}
+
+.container4
+{
+  margin-left:10%;
+  margin-right:10%;
+}
+
+
+.activities
+{
+  background-image: url(https://mdbootstrap.com/img/Photos/Others/background2.jpg);
+
+}

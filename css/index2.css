@@ -1,0 +1,32 @@
+.img-fluid .rounded-circle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.mask.rgba-gradient {
+    background: -webkit-linear-gradient(45deg,rgba(29,236,197,.7),rgba(91,14,214,.7) 100%);
+    background: -webkit-gradient(linear,45deg,from(rgba(29,236,197,.7)),to(rgba(91,14,214,.7)));
+    background: -o-linear-gradient(45deg,rgba(29,236,197,.7),rgba(91,14,214,.7) 100%);
+    background: linear-gradient(to 45deg,rgba(29,236,197,.7),rgba(91,14,214,.7) 100%);
+}
+
+
+.carousel-item  {
+    background-color: #ffffff;
+}
+
+.btn-mdb-color  {
+    position: absolute;
+   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    
+  }
+

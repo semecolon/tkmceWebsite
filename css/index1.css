@@ -1,0 +1,30 @@
+.tag-slider{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media (max-width: 575px) { 
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+@media (min-width: 992px) { 
+    .tag-head{
+        text-align: left;
+        font-size:90px;
+    }
+    .tag-description{
+        text-align: left;
+        font-size: 35px;
+        font-weight: normal;
+    }
+}

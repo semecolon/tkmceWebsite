@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  background-image: url("img/abt2.jpg");
+  height:50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  border-style: ridge;
+}
+.mainfont{
+  color: aliceblue;
+  font-size: 90px;
+  font-weight: 900;
+
+}
+.abt{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.vision{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.mission{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para1,.para2{
+  text-align: justify;
+  font-weight: 500;
+}
+.founder{
+  background-color: wheat;
+  border-style: inset;
+}
+.fndrtxt{
+  text-align: justify;
+}
+.prncpl{
+  height: 70%;
+  width: 100%;
+}
+.lib{
+  height:50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .mainfont{
+    font-size: 30px;
+  }
+  .vision{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .mission{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .prncpl{
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width:800px) {
+  .prncpl{
+    height: 50%;
+  }
+}

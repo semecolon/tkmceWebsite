@@ -48,6 +48,12 @@ body, html {
 .lib{
   height:50%;
 }
+.lst{
+  list-style-type:none;
+}
+.govern{
+  font-size: 25px;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -64,6 +70,9 @@ body, html {
   }
   .prncpl{
     height: 100%;
+  }
+  .govern{
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 1000px) and (min-width:800px) {

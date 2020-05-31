@@ -82,3 +82,10 @@
   max-width: 100%;
 }
 
+#brand:hover {
+}
+
+#navbarResponsive {
+  z-index: 10;
+}
+

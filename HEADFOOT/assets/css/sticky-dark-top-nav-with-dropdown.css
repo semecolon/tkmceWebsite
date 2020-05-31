@@ -188,8 +188,11 @@ a.navbar-link.login:hover {
   font-weight: 400;
 }
 
+.brand:hover {
+  color: #000000;
+}
+
 #mainNav a:hover {
-  color: #ff0000;
   background-color: #000000;
 }
 

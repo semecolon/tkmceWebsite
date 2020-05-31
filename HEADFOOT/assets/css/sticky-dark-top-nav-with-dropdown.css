@@ -188,16 +188,9 @@ a.navbar-link.login:hover {
   font-weight: 400;
 }
 
-#mainNav .nav-link.active:hover {
-  color: #000000;
-}
-
-.brand:hover {
-  color: #000000;
-}
-
 #mainNav a:hover {
-  color: #000000;
+  color: #ff0000;
+  background-color: #000000;
 }
 
 .footerlist:hover {
@@ -226,5 +219,6 @@ a.navbar-link.login:hover {
 
 #mainNav {
   margin-bottom: 0;
+  position: static;
 }
 

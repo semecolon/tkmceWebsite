@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-CSS-Waves-Background-SVG.css">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
@@ -21,28 +23,30 @@
 </head>
 
 <body id="page-top" style="background-color: #f1faee;color: rgb(0,0,0);">
-    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: #1d3557;height: 71px;">
+    <div class="container" style="margin: auto;"><img class="img-fluid" src="assets/img/TKM2.png" loading="eager"></div>
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: #53121b;height: 71px;">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#" style="width: 100px;height: auto;">
-                <div style="height: auto;color: rgb(255,255,255);"><img class="pulse animated brand" id="brand" src="assets/img/PicsArt_05-29-01.45.45.png" style="width: 100px;max-height: 50px;margin-top: 66px;"></div>
+            <a class="navbar-brand border rounded js-scroll-trigger" style="width: 100px;height: auto;" href="#">
+                <div id="brand" style="height: auto;color: rgb(255,255,255);"><img class="pulse animated brand" id="brand" src="assets/img/PicsArt_05-29-01.45.45.png" style="width: 100px;max-height: 50px;"></div>
             </a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div
                 class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto pulse animated">
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link active js-scroll-trigger" href="#about" style="background-color: transparent;">About</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#download">Alumni</a></li>
+                <ul class="nav navbar-nav ml-auto pulse animated" style="background-color: #1f2270;border-radius: 28px;">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation" style="margin-left: 30px;"><a class="nav-link active js-scroll-trigger" id="navhov" href="#about" style="background-color: #3a2222;width: 265px;">About</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation" style="padding-right: 8px;padding-left: 8px;"><a class="nav-link js-scroll-trigger" href="#download">Alumni</a></li>
                     <li class="nav-item dropdown" style="padding: 8px;"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Department</a>
                         <div class="dropdown-menu" role="menu" style="background-color: rgb(112,53,53);"><a class="dropdown-item" role="presentation" href="#">Computer SCience</a><a class="dropdown-item" role="presentation" href="#">Mechanical</a><a class="dropdown-item" role="presentation" href="#">Civil</a><a class="dropdown-item"
                                 role="presentation" href="#">Chemical</a><a class="dropdown-item" role="presentation" href="#">Mechanical Production</a><a class="dropdown-item" role="presentation" href="#">Electronics and communication</a><a class="dropdown-item"
                                 role="presentation" href="#">Electrical and electronics</a></div>
                     </li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Placement</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact" style="padding-right: 8px;padding-left: 8px;">Placement</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation" style="padding-top: 13px;margin-right: 30px;margin-left: 19px;"><input type="search" autofocus="Search" name="Search"><button class="btn btn-primary btn-sm" type="button" style="padding-top: 0px;padding-bottom: -36px;height: 30px;margin-bottom: 2px;width: 36px;padding-left: 5px;background-color: #1485ee;"><i class="material-icons" style="padding-top: 2px;">search</i></button></li>
                 </ul>
         </div>
         </div>
     </nav>
     <!-- Start: Article Clean -->
-    <div class="article-clean" style="background-color: rgb(123,37,37);">
+    <div class="article-clean" style="background-color: rgba(0,0,0,0.1);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
@@ -69,26 +73,36 @@
                             pulvinar dictum vel in justo.</p>
                     </div>
                     <!-- End: Text -->
+                    <p><br><br></p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End: Article Clean -->
     <footer class="text-left" style="background-color: #457b9d;padding-top: 20px;padding-bottom: 20px;">
-        <div class="container text-center" style="max-height: auto;">
+        <div class="container text-center" data-aos="slide-up" style="max-height: auto;">
             <div class="row">
-                <div class="col-xl-2 text-left pulse animated" style="width: 155px;"><img class="img-fluid" data-bs-hover-animate="jello" src="assets/img/tkmce_logo.png" style="padding-top: 36px;"></div>
-                <div class="col" data-aos="fade-up" data-aos-delay="50" data-aos-once="true" style="margin-top: 0px;padding-top: 31px;">
-                    <p class="pulse animated" style="font-family: Lora, serif;color: rgb(255,255,255);height: 126px;">GET IN TOUCH<br>TKM College of Engineering,<br>Karicode,<br>Kollam-691005,<br>Kerala,India<br><br></p><a class="pulse animated footerlist" href="#" style="font-family: Lora, serif;font-weight: bold;">Contact</a></div>
-                <div class="col pulse animated"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH1XoN-FxltHfV-q7uWs7qW2jr7t-GwmU&amp;q=tkm+kollam&amp;zoom=15" data-aos="zoom-in" width="100%" height="450" style="width: 300px;height: 200px;"></iframe></div>
+                <div class="col-xl-3 pulse animated"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH1XoN-FxltHfV-q7uWs7qW2jr7t-GwmU&amp;q=tkm+kollam&amp;zoom=15" width="100%" height="450" style="width: 250px;height: 200px;"></iframe></div>
                 <div
-                    class="col pulse animated" style="margin: 0px;margin-top: 0px;padding-top: 21px;"><span style="color: rgb(255,255,255);font-family: Cabin, sans-serif;">Useful links</span>
-                    <ul class="list-unstyled">
-                        <li class="footerlist"><a class="footerlist" href="#">About</a></li>
-                        <li><a class="footerlist" href="#">Placement</a></li>
-                        <li><a class="footerlist" href="#">Alumni</a></li>
-                        <li><a class="footerlist" href="#">Department</a></li>
-                    </ul>
+                    class="col-xl-2" style="margin-top: 0px;padding-top: 31px;padding-right: 0px;padding-left: 0px;">
+                    <p class="pulse animated" style="font-family: Lora, serif;color: rgb(255,255,255);height: 126px;">GET IN TOUCH<br>TKM College of Engineering,<br>Karicode,<br>Kollam-691005,<br>Kerala,India<br><br></p><a class="pulse animated footerlist" href="#" style="font-family: Lora, serif;font-weight: bold;">Contact</a></div>
+            <div class="col-xl-2 text-left pulse animated"
+                style="width: 155px;"><img class="img-fluid" src="assets/img/tkmLogo%20black.png" style="padding-top: 0px;margin-top: 20px;"></div>
+            <div class="col" style="padding-top: 24px;"><span style="color: rgb(255,255,255);font-family: Cabin, sans-serif;">Useful links</span>
+                <ul class="list-unstyled">
+                    <li class="footerlist"><a class="footerlist" href="#">About</a></li>
+                    <li><a class="footerlist" href="#">Placement</a></li>
+                    <li><a class="footerlist" href="#">Alumni</a></li>
+                    <li><a class="footerlist" href="#">Department</a></li>
+                </ul>
+            </div>
+            <div class="col pulse animated" style="margin: 0px;margin-top: 0px;padding-top: 21px;"><span style="color: rgb(255,255,255);font-family: Cabin, sans-serif;">Useful links</span>
+                <ul class="list-unstyled">
+                    <li class="footerlist"><a class="footerlist" href="#">About</a></li>
+                    <li><a class="footerlist" href="#">Placement</a></li>
+                    <li><a class="footerlist" href="#">Alumni</a></li>
+                    <li><a class="footerlist" href="#">Department</a></li>
+                </ul>
             </div>
         </div>
         <div class="row">

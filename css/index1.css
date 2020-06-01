@@ -4,11 +4,18 @@
     background-repeat: no-repeat;
     /* min-height: 100vh; */
 }
-
+.slide-img{
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+max-width: 100%;
+}
 @media (max-width: 575px) { 
     .slide-img{
         background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  /* max-width: 100%; */
     }
 }
 

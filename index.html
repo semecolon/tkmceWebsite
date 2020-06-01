@@ -24,11 +24,148 @@
 </head>
 
 <body>
+<!-- Navigation -->
+<header>
+    
+  <style>
+   .navbar .navbar-brand img {
+    height: 20px;
+  }
 
+  .navbar .navbar-brand {
+    padding-top: 0;
+  }
+
+  .navbar .nav-link {
+    color: #444343!important;
+  }
+
+  .navbar .button-collapse {
+    /* padding-top: 1px; */
+  }
+
+  .card-intro .card-body {
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
+    border-radius: 0 !important;
+  }
+
+  .card-intro .card-body h1 {
+    margin-bottom: 0;
+  }
+
+  .card-intro {
+    margin-top: 56px;
+  }
+
+  @media (max-width: 450px) {
+    .card-intro {
+      /* margin-top: 56px; */
+    }
+  }
+
+  @media (min-width: 1441px) {
+    .card-intro {
+      padding-left: 0 !important;
+    }
+  }
+  </style>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light amber  scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <!-- <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+        <img src="https://mdbootstrap.com/wp-content/uploads/2018/06/logo-mdb-jquery-small.png" alt="Logo">
+      </a> -->
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="index.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="abt.html" target="_blank">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="department.html" target="_blank">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect" href="alumni2.html" target="_blank">Alumni Asso.</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link waves-effect"
+              target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://mdbootstrap.com/docs/jquery/newsletter/"
+              class="nav-link border border-light rounded waves-effect mr-2" target="_blank">
+              <i class="fas fa-envelope mr-1"></i>Newsletter
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Intro -->
+  <div class="card card-intro">
+
+    <div class="card-body white-text  text-center">
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <img  src="img/tkmce_logo.png" style="height:100px;max-height: 100%;max-width: 100%;">
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+
+  </div>
+  <!-- Intro -->
+
+</header>
+<!-- Navigation -->
   <!-- Start your project here-->
   <section>
     <!--Carousel Wrapper-->
-    <div style="height: 100vh;" id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <div style="height: 80vh;" id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
       <!--Indicators-->
       <!-- <ol class="carousel-indicators">
         <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -40,7 +177,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="view">
-            <img class="d-block w-100" style="height: 100vh;background-repeat: no-repeat; background-size: cover;background-size: cover;" src="img/slide1.jpg" alt="First slide">
+            <img class="d-block slide-img" style="height: 80vh;background-repeat: no-repeat; background-position: center;background-size: cover;" src="img/1.jpg" alt="First slide">
             <div class="mask rgba-black-light"></div>
           </div>
           <div class="d-flex justify-content-end col-sm-6">
@@ -54,7 +191,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100" style="height: 100vh;" src="img/slide2.jpg" alt="Second slide">
+            <img class="d-block w-100" style="height: 80vh;" src="img/slide2.jpg" alt="Second slide">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="d-flex justify-content-end col-sm-6">
@@ -67,7 +204,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100" style="height: 100vh;" src="img/slide3.jpg" alt="Third slide">
+            <img class="d-block w-100" style="height: 80vh;" src="img/slide3.jpg" alt="Third slide">
             <div class="mask rgba-black-slight"></div>
           </div>
           <div class="d-flex justify-content-end col-sm-6">

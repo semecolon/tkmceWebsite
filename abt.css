@@ -8,10 +8,10 @@ body, html {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position:center ;
   overflow: hidden;
   position: relative;
   border-style: ridge;
-
 }
 .mainfont{
   color: aliceblue;

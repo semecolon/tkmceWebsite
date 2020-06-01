@@ -1,836 +1,739 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Alumni Page</title>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    />
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <!-- Your custom styles (optional) -->
-    <link rel="stylesheet" href="css/alumni2.css" />
-    <link
-      rel="stylesheet"
-      href="HEADFOOT/assets/bootstrap/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Cabin:700"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lora"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700"
-    />
-    <link rel="stylesheet" href="HEADFOOT/assets/fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="HEADFOOT/assets/fonts/ionicons.min.css" />
-    <link
-      rel="stylesheet"
-      href="HEADFOOT/assets/fonts/material-icons.min.css"
-    />
-    <link rel="stylesheet" href="HEADFOOT/assets/css/Article-Clean.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
-    />
-    <link rel="stylesheet" href="HEADFOOT/assets/css/Social-Icons.css" />
-    <link
-      rel="stylesheet"
-      href="HEADFOOT/assets/css/sticky-dark-top-nav-with-dropdown.css"
-    />
-  </head>
-  <body >
-    <div class="container" style="margin: auto;"><img class="img-fluid" src="HEADFOOT/assets/img/TKM2.png" loading="eager"></div>
-    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: #53121b;height: 71px;">
-        <div class="container">
-            <a class="navbar-brand border rounded js-scroll-trigger" style="width: 100px;height: auto;" href="#">
-                <div style="height: auto;color: rgb(255,255,255);"><img class="pulse animated brand" id="brand" src="HEADFOOT/assets/img/PicsArt_05-29-01.45.45.png" style="width: 100px;max-height: 50px;"></div>
-            </a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div
-                class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto pulse animated" style="background-color: #1f2270;border-radius: 28px;">
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link active js-scroll-trigger" id="navhov" href="#about" style="background-color: #3a2222;margin-left: 18px;">About</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#download">Alumni</a></li>
-                    <li class="nav-item dropdown" style="padding: 8px;"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Department</a>
-                        <div class="dropdown-menu" role="menu" style="background-color: rgb(112,53,53);"><a class="dropdown-item" role="presentation" href="#">Computer SCience</a><a class="dropdown-item" role="presentation" href="#">Mechanical</a><a class="dropdown-item" role="presentation" href="#">Civil</a><a class="dropdown-item"
-                                role="presentation" href="#">Chemical</a><a class="dropdown-item" role="presentation" href="#">Mechanical Production</a><a class="dropdown-item" role="presentation" href="#">Electronics and communication</a><a class="dropdown-item"
-                                role="presentation" href="#">Electrical and electronics</a></div>
-                    </li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Placement</a></li>
-                    <li class="nav-item" role="presentation" style="margin-right: 23px;"><input type="search" style="margin-top: 14px;margin-right: 0px;"><button class="btn btn-primary" type="button" style="height: 30px;width: 34px;margin-bottom: 2px;padding: 0px;padding-top: 3px;"><i class="material-icons align-self-center m-auto" style="margin-top: 0px;">search</i></button></li>
-                </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Alumni Page</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="HEADFOOT/assets/css/Article-Clean.css">
+  <link rel="stylesheet" href="HEADFOOT/assets/css/Social-Icons.css">
+  <link rel="stylesheet" href="HEADFOOT/assets/css/sticky-dark-top-nav-with-dropdown.css">
+  <link rel="stylesheet" href="css/alumni2.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700" />
+</head>
+
+<body>
+  <div style="background-color: #ffa726;">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav"
+      style="height: 71px; position: relative; background: #ffa726">
+      <div class="container" style="background-color: #ffa726;">
+        <a class="navbar-brand border rounded js-scroll-trigger"
+          style="width: 100px;height: auto; background-color: #1f2270;" href="#">
+          <div style="height: auto; background-color :#1f2270"><img class="pulse animated brand" id="brand"
+              src="HEADFOOT/assets/img/PicsArt_05-29-01.45.45.png"
+              style="width: 100px;max-height: 50px; color: #1f2270;"></div>
+
+        </a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive"
+          type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+          value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="nav navbar-nav ml-auto pulse animated" style="background-color: #1f2270;border-radius: 28px;">
+            <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a
+                class="nav-link active js-scroll-trigger" id="navhov" href="abt.html"
+                style="background-color: ##fff;margin-left: 18px;">About</a></li>
+            <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger"
+                href="alumni2.html">Alumni</a></li>
+            <li class="nav-item dropdown" style="padding: 8px;"><a class="dropdown-toggle nav-link"
+                data-toggle="dropdown" aria-expanded="false" href="">Department</a>
+              <div class="dropdown-menu">
+                <a href="department.html">Computer Science</a><br>
+                <a href="department.html">Mechanical</a><br>
+                <a href="department.html">Civil</a><br>
+                <a href="department.html">Chemical</a><br>
+                <a href="department.html">Mechanical Production</a><br>
+                <a href="department.html">Electronics and Communication</a><br>
+                <a href="department.html">Electrical and Electronics</a><br>
+              </div>
+            </li>
+            <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger"
+                href="index.html">Placement</a></li>
+          </ul>
         </div>
-        </div>
+      </div>
     </nav>
-    <header>
-      <!-- Full Page Intro -->
-      <div class="view view1">
-        <!-- Mask & flexbox options-->
-        <div class="mask rgba-gradient align-items-center">
-          <!-- Content -->
-          <div class="container set1">
-            <!--Grid row-->
-            <div class="row mt-5">
-              <!--Grid column-->
-              <div
-                class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left"
-              >
-                <h1
-                  class="h1-responsive font-weight-bold wow fadeInLeft"
-                  data-wow-delay="0.3s"
-                >
-                  TKMCE Alumni Assosciation
-                </h1>
-                <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s" />
-                <h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.3s">
-                  The T K M College of Engineering Alumni Association was formed
-                  in 1963, with a view to keep the silken threads of the
-                  attachments between the old students and their Alma mater. The
-                  chapters of T K M College of Engineering Alumni Association
-                  are functioning in many parts of the world. Few of the
-                  prominent foreign alumni associations are chapters at
-                  Tanzania, Kuwait, UAE, Sulthanate of Oman, Bahrain, and Qatar.
-                </h6>
-              </div>
-              <!--Grid column-->
-              <div class="col-md-6">
-                <img
-                  src="https://mdbootstrap.com/img/illustrations/undraw_connected_world_wuay.svg"
-                  class="img-fluid"
-                  alt="smaple image"
-                />
-              </div>
-            </div>
-            <!--Grid row-->
-          </div>
-          <!-- Content -->
-        </div>
-        <!-- Mask & flexbox options-->
-      </div>
-      <!-- Full Page Intro -->
-    </header>
-    <!-- Main navigation -->
-    <!--Main Layout-->
+  </div>
+  
 
-    <div class="container1">
-      <!--Section: Content-->
-      <section>
-        <!-- Section heading -->
-        <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">
-          About TKMCEAA
-        </h3>
-        <hr class="w-header" />
-        <!-- Section description -->
-        <p class="font-weight-normal mb-3 text-center">
-          Thangal Kunju Musaliar College of Engineering Alumni Assosciation
-        </p>
-
-        <div class="row text-center text-md-left">
-          <div class="col-md-6 mb-4">
-            <h5 class="font-weight-normal mb-3">Objectives</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                To maintain a warm relation between the alumni and the Alma
-                matter.
-              </li>
-              <li class="list-group-item">
-                To keep alumni informed of the developmental and expansion
-                projects in the campus.
-              </li>
-              <li class="list-group-item">
-                To give an opportunity to the old students of the institution to
-                partake in the responsible task of building up and maintaining
-                the tradition of this institution.
-              </li>
-              <li class="list-group-item">
-                To serve as a forum striving to get a proper blend of the
-                theoretical and practical aspects of Engineering.
-              </li>
-              <li class="list-group-item">
-                Support financially underprivileged students by instituting
-                scholarships and encourage meritorious students through awards
-                and honors.
-              </li>
-              <li class="list-group-item">
-                Mentor fresh graduates in securing suitable employments.
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-6 mb-4">
-            <h5 class="font-weight-normal mb-3 text-center">
-              Ahmed Hassan Musaliar
-            </h5>
-            <p class="text-muted text-center">
-              Deputy Director – Placement & Alumni Relations
-            </p>
-            <img
-              src="http://tkmce.ac.in/wp-content/uploads/2014/08/placement-director.jpg"
-              class="rounded mx-auto d-block img-fluid z-depth-1"
-              alt="..."
-            />
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <div class="deep-blue-gradient">
-      <!--Section: Content-->
-      <section class="team-section text-center dark-grey-text container3">
-        <!-- Section heading -->
-        <h3 class="font-weight-bold mb-4 pb-2">Notable Alumnus</h3>
-        <!-- Section description -->
-        <p class="text-center w-responsive mx-auto mb-5">
-          Here are some of our notable Alumni
-        </p>
-
-        <!--Grid row-->
-        <div class="row text-center">
-          <!--Grid column-->
-          <div class="col-md-4 mb-4">
-            <div class="testimonial">
-              <!--Avatar-->
-              <div class="avatar mx-auto">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
-                  class="rounded-circle z-depth-1 img-fluid"
-                />
-              </div>
-              <!--Content-->
-              <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-              <h6 class="font-weight-bold blue-text my-3">
-                System Analyst, Google INC
+  <header>
+    <!-- Full Page Intro -->
+    <div class="view view1">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-gradient align-items-center">
+        <!-- Content -->
+        <div class="container set1">
+          <!--Grid row-->
+          <div class="row mt-5">
+            <!--Grid column-->
+            <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
+              <h1 class="h1-responsive font-weight-bold wow fadeInLeft" data-wow-delay="0.3s">
+                TKMCE Alumni Assosciation
+              </h1>
+              <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s" />
+              <h6 class="mb-3 wow fadeInLeft" data-wow-delay="0.3s">
+                The T K M College of Engineering Alumni Association was formed
+                in 1963, with a view to keep the silken threads of the
+                attachments between the old students and their Alma mater. The
+                chapters of T K M College of Engineering Alumni Association
+                are functioning in many parts of the world. Few of the
+                prominent foreign alumni associations are chapters at
+                Tanzania, Kuwait, UAE, Sulthanate of Oman, Bahrain, and Qatar.
               </h6>
-              <p class="font-weight-normal dark-grey-text">
-                <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Quod eos id officiis hic
-                tenetur quae quaerat ad velit ab hic tenetur.
-              </p>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-4 mb-4">
-            <div class="testimonial">
-              <!--Avatar-->
-              <div class="avatar mx-auto">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
-                  class="rounded-circle z-depth-1 img-fluid"
-                />
-              </div>
-              <!--Content-->
-              <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-              <h6 class="font-weight-bold blue-text my-3">
-                Sub Collector, Wayanad
-              </h6>
-              <p class="font-weight-normal dark-grey-text">
-                <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam,
-                quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                nisi ut aliquid commodi.
-              </p>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-4 mb-4">
-            <div class="testimonial">
-              <!--Avatar-->
-              <div class="avatar mx-auto">
-                <img
-                  src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
-                  class="rounded-circle z-depth-1 img-fluid"
-                />
-              </div>
-              <!--Content-->
-              <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-              <h6 class="font-weight-bold blue-text my-3">Actress, Director</h6>
-              <p class="font-weight-normal dark-grey-text">
-                <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus
-                et iusto odio dignissimos ducimus qui blanditiis praesentium
-                voluptatum deleniti atque corrupti.
-              </p>
-            </div>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!--Section: Content-->
-    </div>
-
-    <section>
-      `
-      <div class="container text-center">
-        <button
-          type="button"
-          value="login"
-          onclick="op1()"
-          class="btn btn-info btn-lg"
-        >
-          Login
-        </button>
-        <button
-          type="button"
-          value="signup"
-          onclick="op2()"
-          class="btn btn-info btn-lg"
-        >
-          Signup
-        </button>
-      </div>
-      <br />
-      <br />
-
-      <div class="container text-center" id="loginsignup">
-        <form
-          class="text-center col-sm-9 mx-auto border border-light p-5"
-          action="#!"
-        >
-          <p class="h4 mb-4">Alumni Sign In</p>
-          <input
-            type="email"
-            id="defaultLoginFormEmail"
-            class="form-control mb-4"
-            placeholder="E-mail"
-          /><input
-            type="password"
-            id="defaultLoginFormPassword"
-            class="form-control mb-4"
-            placeholder="Password"
-          />
-          <div class="d-flex justify-content-around">
-            <div>
-              <div class="custom-control custom-checkbox">
-                <input
-                  type="checkbox"
-                  class="custom-control-input"
-                  id="defaultLoginFormRemember"
-                /><label
-                  class="custom-control-label"
-                  for="defaultLoginFormRemember"
-                  >Remember me</label
-                >
-              </div>
-            </div>
-            <div><a href="">Forgot password?</a></div>
-          </div>
-          <button class="btn btn-info btn-block my-4" type="submit">
-            Sign in
-          </button>
-        </form>
-      </div>
-    </section>
-
-    <div class="indigo lighten-4">
-      <div class="container3">
-        <!--Section: Content-->
-        <section class="magazine-section dark-grey-text container">
-          <!-- Section heading -->
-          <h3 class="text-center font-weight-bold mb-4 pb-2">
-            Alumni Assosciation Activities
-          </h3>
-          <!-- Section description -->
-          <p class="text-center w-responsive mx-auto mb-5">
-            Here is a short glimpse of the activities conducted by TKMCEAA
-          </p>
-
-          <!-- Grid row -->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-lg-6 col-md-12 mb-4">
-              <!-- Featured news -->
-              <div class="single-news">
-                <!-- Image -->
-                <div class="view1 overlay rounded z-depth-1-half mb-4">
-                  <img
-                    class="img-fluid"
-                    src="http://tkmce.ac.in/wp-content/uploads/2020/01/2.jpg"
-                    alt="Sample image"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!-- Data -->
-                <div class="news-data d-flex justify-content-between">
-                  <a href="#!" class="deep-orange-text">
-                    <h6 class="font-weight-bold">
-                      <i class="far fa-newspaper pr-2"></i>Activities
-                    </h6>
-                  </a>
-                  <p class="font-weight-bold dark-grey-text">
-                    <i class="fas fa-clock-o pr-2"></i>27/02/2018
-                  </p>
-                </div>
-
-                <!-- Excerpt -->
-                <h3 class="font-weight-bold dark-grey-text mb-3">
-                  <a>Title of the news</a>
-                </h3>
-                <p class="dark-grey-text">
-                  Sed ut perspiciatis unde voluptatem omnis iste natus error sit
-                  voluptatem accusantium doloremque laudantium, totam rem
-                  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae explicabo. Duis aute irure dolor in
-                  reprehenderit in voluptate velit esse cillum dolore eu fugiat.
-                </p>
-              </div>
-              <!-- Featured news -->
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-lg-6 col-md-12 mb-4">
-              <!-- Small news -->
-              <div class="single-news mb-4">
-                <!-- Grid row -->
-                <div class="row">
-                  <!-- Grid column -->
-                  <div class="col-md-3">
-                    <!--Image-->
-                    <div class="view1 overlay rounded z-depth-1 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg"
-                        alt="Sample image"
-                      />
-                      <a>
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-9">
-                    <!-- Excerpt -->
-                    <p class="font-weight-bold dark-grey-text">26/02/2018</p>
-                    <div class="d-flex justify-content-between">
-                      <div class="col-11 text-truncate pl-0 mb-3">
-                        <a href="#!" class="dark-grey-text"
-                          >At vero eos et accusamus et iusto odio dignissimos
-                          ducimus qui blanditiis</a
-                        >
-                      </div>
-                      <a><i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-              </div>
-              <!-- Small news -->
-
-              <!-- Small news -->
-              <div class="single-news mb-4">
-                <!-- Grid row -->
-                <div class="row">
-                  <!-- Grid column -->
-                  <div class="col-md-3">
-                    <!--Image-->
-                    <div class="view1 overlay rounded z-depth-1 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                        alt="Sample image"
-                      />
-                      <a>
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-9">
-                    <!-- Excerpt -->
-                    <p class="font-weight-bold dark-grey-text">25/02/2018</p>
-                    <div class="d-flex justify-content-between">
-                      <div class="col-11 text-truncate pl-0 mb-3">
-                        <a href="#!" class="dark-grey-text"
-                          >Itaque earum rerum hic tenetur a sapiente delectus</a
-                        >
-                      </div>
-                      <a><i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-              </div>
-              <!-- Small news -->
-
-              <!-- Small news -->
-              <div class="single-news mb-4">
-                <!-- Grid row -->
-                <div class="row">
-                  <!-- Grid column -->
-                  <div class="col-md-3">
-                    <!--Image-->
-                    <div class="view1 overlay rounded z-depth-1 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Others/images/87.jpg"
-                        alt="Sample image"
-                      />
-                      <a>
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-9">
-                    <!-- Excerpt -->
-                    <p class="font-weight-bold dark-grey-text">24/02/2018</p>
-                    <div class="d-flex justify-content-between">
-                      <div class="col-11 text-truncate pl-0 mb-3">
-                        <a href="#!" class="dark-grey-text"
-                          >Soluta nobis est eligendi optio cumque nihil impedit
-                          quo minus</a
-                        >
-                      </div>
-                      <a><i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-              </div>
-              <!-- Small news -->
-
-              <!-- Small news -->
-              <div class="single-news">
-                <!-- Grid row -->
-                <div class="row">
-                  <!-- Grid column -->
-                  <div class="col-md-3">
-                    <!--Image-->
-                    <div class="view1 overlay rounded z-depth-1 mb-md-0 mb-4">
-                      <img
-                        class="img-fluid"
-                        src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
-                        alt="Sample image"
-                      />
-                      <a>
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-
-                  <!-- Grid column -->
-                  <div class="col-md-9">
-                    <!-- Excerpt -->
-                    <p class="font-weight-bold dark-grey-text">23/02/2018</p>
-                    <div class="d-flex justify-content-between">
-                      <div class="col-11 text-truncate pl-0 mb-lg-3">
-                        <a href="#!" class="dark-grey-text"
-                          >Duis aute irure dolor in reprehenderit in
-                          voluptate</a
-                        >
-                      </div>
-                      <a><i class="fas fa-angle-double-right"></i></a>
-                    </div>
-                  </div>
-                  <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-              </div>
-              <!-- Small news -->
             </div>
             <!--Grid column-->
+            <div class="col-md-6">
+              <img src="https://mdbootstrap.com/img/illustrations/undraw_connected_world_wuay.svg" class="img-fluid"
+                alt="smaple image" />
+            </div>
           </div>
-          <!-- Grid row -->
-        </section>
-        <!--Section: Content-->
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
       </div>
+      <!-- Mask & flexbox options-->
     </div>
+    <!-- Full Page Intro -->
+  </header>
+  <!-- Main navigation -->
+  <!--Main Layout-->
 
-    <div class="container4">
+  <div class="container1">
+    <!--Section: Content-->
+    <section>
+      <!-- Section heading -->
+      <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">
+        About TKMCEAA
+      </h3>
+      <hr class="w-header" />
+      <!-- Section description -->
+      <p class="font-weight-normal mb-3 text-center">
+        Thangal Kunju Musaliar College of Engineering Alumni Assosciation
+      </p>
+
+      <div class="row text-center text-md-left">
+        <div class="col-md-6 mb-4">
+          <h5 class="font-weight-normal mb-3">Objectives</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              To maintain a warm relation between the alumni and the Alma
+              matter.
+            </li>
+            <li class="list-group-item">
+              To keep alumni informed of the developmental and expansion
+              projects in the campus.
+            </li>
+            <li class="list-group-item">
+              To give an opportunity to the old students of the institution to
+              partake in the responsible task of building up and maintaining
+              the tradition of this institution.
+            </li>
+            <li class="list-group-item">
+              To serve as a forum striving to get a proper blend of the
+              theoretical and practical aspects of Engineering.
+            </li>
+            <li class="list-group-item">
+              Support financially underprivileged students by instituting
+              scholarships and encourage meritorious students through awards
+              and honors.
+            </li>
+            <li class="list-group-item">
+              Mentor fresh graduates in securing suitable employments.
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <h5 class="font-weight-normal mb-3 text-center">
+            Ahmed Hassan Musaliar
+          </h5>
+          <p class="text-muted text-center">
+            Deputy Director – Placement & Alumni Relations
+          </p>
+          <img src="http://tkmce.ac.in/wp-content/uploads/2014/08/placement-director.jpg"
+            class="rounded mx-auto d-block img-fluid z-depth-1" alt="..." />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="deep-blue-gradient">
+    <!--Section: Content-->
+    <section class="team-section text-center dark-grey-text container3">
+      <!-- Section heading -->
+      <h3 class="font-weight-bold mb-4 pb-2">Notable Alumnus</h3>
+      <!-- Section description -->
+      <p class="text-center w-responsive mx-auto mb-5">
+        Here are some of our notable Alumni
+      </p>
+
+      <!--Grid row-->
+      <div class="row text-center">
+        <!--Grid column-->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial">
+            <!--Avatar-->
+            <div class="avatar mx-auto">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
+                class="rounded-circle z-depth-1 img-fluid" />
+            </div>
+            <!--Content-->
+            <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+            <h6 class="font-weight-bold blue-text my-3">
+              System Analyst, Google INC
+            </h6>
+            <p class="font-weight-normal dark-grey-text">
+              <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Quod eos id officiis hic
+              tenetur quae quaerat ad velit ab hic tenetur.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial">
+            <!--Avatar-->
+            <div class="avatar mx-auto">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg"
+                class="rounded-circle z-depth-1 img-fluid" />
+            </div>
+            <!--Content-->
+            <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+            <h6 class="font-weight-bold blue-text my-3">
+              Sub Collector, Wayanad
+            </h6>
+            <p class="font-weight-normal dark-grey-text">
+              <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam,
+              quis nostrum exercitationem ullam corporis suscipit laboriosam,
+              nisi ut aliquid commodi.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial">
+            <!--Avatar-->
+            <div class="avatar mx-auto">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                class="rounded-circle z-depth-1 img-fluid" />
+            </div>
+            <!--Content-->
+            <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+            <h6 class="font-weight-bold blue-text my-3">Actress, Director</h6>
+            <p class="font-weight-normal dark-grey-text">
+              <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus
+              et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti.
+            </p>
+          </div>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!--Section: Content-->
+  </div>
+
+  <section>
+    `
+    <div class="container text-center">
+      <button type="button" value="login" onclick="op1()" class="btn btn-info btn-lg">
+        Login
+      </button>
+      <button type="button" value="signup" onclick="op2()" class="btn btn-info btn-lg">
+        Signup
+      </button>
+    </div>
+    <br />
+    <br />
+
+    <div class="container text-center" id="loginsignup">
+      <form class="text-center col-sm-9 mx-auto border border-light p-5" action="#!">
+        <p class="h4 mb-4">Alumni Sign In</p>
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" /><input
+          type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" />
+        <div class="d-flex justify-content-around">
+          <div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember" /><label
+                class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+            </div>
+          </div>
+          <div><a href="">Forgot password?</a></div>
+        </div>
+        <button class="btn btn-info btn-block my-4" type="submit">
+          Sign in
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <div class="indigo lighten-4">
+    <div class="container3">
       <!--Section: Content-->
-      <section class="mx-md-5 dark-grey-text">
+      <section class="magazine-section dark-grey-text container">
+        <!-- Section heading -->
+        <h3 class="text-center font-weight-bold mb-4 pb-2">
+          Alumni Assosciation Activities
+        </h3>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto mb-5">
+          Here is a short glimpse of the activities conducted by TKMCEAA
+        </p>
+
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
-          <div class="col-md-12">
-            <!-- Card -->
-            <div class="card card-cascade wider reverse">
-              <!-- Card image -->
-              <div class="view1 view-cascade overlay">
-                <img
-                  class="card-img-top"
-                  src="./img/2018-19-OFFER-DETAILS-x.jpeg"
-                  alt="Sample image"
-                />
-                <a href="#!">
+          <div class="col-lg-6 col-md-12 mb-4">
+            <!-- Featured news -->
+            <div class="single-news">
+              <!-- Image -->
+              <div class="view1 overlay rounded z-depth-1-half mb-4">
+                <img class="img-fluid" src="http://tkmce.ac.in/wp-content/uploads/2020/01/2.jpg" alt="Sample image" />
+                <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
               </div>
 
-              <!-- Card content -->
-              <div class="card-body card-body-cascade text-center">
-                <!-- Title -->
-                <h3 class="font-weight-bold">
-                  <a>Our Previous Placement History</a>
-                </h3>
-                <!-- Data -->
-                <p>
-                  Status given by
-                  <a><strong>Carrer Guidance And Placment Unit</strong></a
-                  >, as of 10/2019
+              <!-- Data -->
+              <div class="news-data d-flex justify-content-between">
+                <a href="#!" class="deep-orange-text">
+                  <h6 class="font-weight-bold">
+                    <i class="far fa-newspaper pr-2"></i>Activities
+                  </h6>
+                </a>
+                <p class="font-weight-bold dark-grey-text">
+                  <i class="fas fa-clock-o pr-2"></i>27/02/2018
                 </p>
               </div>
-              <!-- Card content -->
-            </div>
-            <!-- Card -->
 
-            <!-- Excerpt -->
-            <div class="mt-5">
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                praesentium voluptatum deleniti atque corrupti quos dolores et
-                quas molestias excepturi sint occaecati cupiditate non
-                provident, similique sunt in culpa nemo enim ipsam voluptatem
-                quia voluptas sit qui officia deserunt mollitia animi, id est
-                laborum et dolorum fuga quidem rerum facilis est distinctio.
-              </p>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus,
-                omnis voluptas assumenda est, omnis dolor repellendus. Quis
-                autem vel eum iure reprehenderit qui in ea voluptate velit esse
-                quam nihil molestiae consequatur. Temporibus autem quibusdam et
-                aut officiis debitis aut rerum necessitatibus saepe eveniet ut
-                et voluptates repudiandae sint et molestiae non recusandae
-                itaque earum rerum.
+              <!-- Excerpt -->
+              <h3 class="font-weight-bold dark-grey-text mb-3">
+                <a>Title of the news</a>
+              </h3>
+              <p class="dark-grey-text">
+                Sed ut perspiciatis unde voluptatem omnis iste natus error sit
+                voluptatem accusantium doloremque laudantium, totam rem
+                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae explicabo. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat.
               </p>
             </div>
+            <!-- Featured news -->
           </div>
           <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <!-- Small news -->
+            <div class="single-news mb-4">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3">
+                  <!--Image-->
+                  <div class="view1 overlay rounded z-depth-1 mb-4">
+                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg"
+                      alt="Sample image" />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-9">
+                  <!-- Excerpt -->
+                  <p class="font-weight-bold dark-grey-text">26/02/2018</p>
+                  <div class="d-flex justify-content-between">
+                    <div class="col-11 text-truncate pl-0 mb-3">
+                      <a href="#!" class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos
+                        ducimus qui blanditiis</a>
+                    </div>
+                    <a><i class="fas fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+            <!-- Small news -->
+
+            <!-- Small news -->
+            <div class="single-news mb-4">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3">
+                  <!--Image-->
+                  <div class="view1 overlay rounded z-depth-1 mb-4">
+                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                      alt="Sample image" />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-9">
+                  <!-- Excerpt -->
+                  <p class="font-weight-bold dark-grey-text">25/02/2018</p>
+                  <div class="d-flex justify-content-between">
+                    <div class="col-11 text-truncate pl-0 mb-3">
+                      <a href="#!" class="dark-grey-text">Itaque earum rerum hic tenetur a sapiente delectus</a>
+                    </div>
+                    <a><i class="fas fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+            <!-- Small news -->
+
+            <!-- Small news -->
+            <div class="single-news mb-4">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3">
+                  <!--Image-->
+                  <div class="view1 overlay rounded z-depth-1 mb-4">
+                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/87.jpg"
+                      alt="Sample image" />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-9">
+                  <!-- Excerpt -->
+                  <p class="font-weight-bold dark-grey-text">24/02/2018</p>
+                  <div class="d-flex justify-content-between">
+                    <div class="col-11 text-truncate pl-0 mb-3">
+                      <a href="#!" class="dark-grey-text">Soluta nobis est eligendi optio cumque nihil impedit
+                        quo minus</a>
+                    </div>
+                    <a><i class="fas fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+            <!-- Small news -->
+
+            <!-- Small news -->
+            <div class="single-news">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3">
+                  <!--Image-->
+                  <div class="view1 overlay rounded z-depth-1 mb-md-0 mb-4">
+                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+                      alt="Sample image" />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-9">
+                  <!-- Excerpt -->
+                  <p class="font-weight-bold dark-grey-text">23/02/2018</p>
+                  <div class="d-flex justify-content-between">
+                    <div class="col-11 text-truncate pl-0 mb-lg-3">
+                      <a href="#!" class="dark-grey-text">Duis aute irure dolor in reprehenderit in
+                        voluptate</a>
+                    </div>
+                    <a><i class="fas fa-angle-double-right"></i></a>
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+            <!-- Small news -->
+          </div>
+          <!--Grid column-->
         </div>
         <!-- Grid row -->
-
-        <hr class="mb-5 mt-4" />
       </section>
       <!--Section: Content-->
     </div>
+  </div>
 
-    <!-- Main navigation -->
+  <div class="container4">
+    <!--Section: Content-->
+    <section class="mx-md-5 dark-grey-text">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-12">
+          <!-- Card -->
+          <div class="card card-cascade wider reverse">
+            <!-- Card image -->
+            <div class="view1 view-cascade overlay">
+              <img class="card-img-top" src="./img/2018-19-OFFER-DETAILS-x.jpeg" alt="Sample image" />
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
 
-    <!-- Full Page Intro -->
-    <section
-      style="
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+              <!-- Title -->
+              <h3 class="font-weight-bold">
+                <a>Our Previous Placement History</a>
+              </h3>
+              <!-- Data -->
+              <p>
+                Status given by
+                <a><strong>Carrer Guidance And Placment Unit</strong></a>, as of 10/2019
+              </p>
+            </div>
+            <!-- Card content -->
+          </div>
+          <!-- Card -->
+
+          <!-- Excerpt -->
+          <div class="mt-5">
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              praesentium voluptatum deleniti atque corrupti quos dolores et
+              quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa nemo enim ipsam voluptatem
+              quia voluptas sit qui officia deserunt mollitia animi, id est
+              laborum et dolorum fuga quidem rerum facilis est distinctio.
+            </p>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Quis
+              autem vel eum iure reprehenderit qui in ea voluptate velit esse
+              quam nihil molestiae consequatur. Temporibus autem quibusdam et
+              aut officiis debitis aut rerum necessitatibus saepe eveniet ut
+              et voluptates repudiandae sint et molestiae non recusandae
+              itaque earum rerum.
+            </p>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+      <hr class="mb-5 mt-4" />
+    </section>
+    <!--Section: Content-->
+  </div>
+
+  <!-- Main navigation -->
+
+  <!-- Full Page Intro -->
+  <section style="
         background-image: url('https://image.freepik.com/free-photo/person-holding-magnifying-glass-map-searching-destination_23-2147958223.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-      "
-    >
-      <!-- Mask & flexbox options-->
-      <div class="mask d-flex justify-content-center align-items-center">
-        <!-- Content -->
-        <div class="container py-5 my-5 black-text">
-          <h3 class="font-weight-bold text-center pb-2">TKMCEAA Directory</h3>
-          <p class="lead text-center pt-2 mb-5 black-text">
-            Enter details of the person to be searched
-          </p>
+      ">
+    <!-- Mask & flexbox options-->
+    <div class="mask d-flex justify-content-center align-items-center">
+      <!-- Content -->
+      <div class="container py-5 my-5 black-text">
+        <h3 class="font-weight-bold text-center pb-2">TKMCEAA Directory</h3>
+        <p class="lead text-center pt-2 mb-5 black-text">
+          Enter details of the person to be searched
+        </p>
 
-          <!--Grid row-->
-          <div class="row d-flex align-items-center justify-content-center">
-            <!--Grid column-->
-            <div class="col-md-6 col-xl-5">
-              <!--Form-->
-              <div class="card">
-                <div class="card-body z-depth-2 px-4">
-                  <div class="md-form mt-3">
-                    <i class="fa fa-user prefix black-text"></i>
-                    <input type="text" id="form3" class="form-control" />
-                    <label for="form3">Name</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-book-open prefix black-text"></i>
-                    <input type="text" id="form2" class="form-control" />
-                    <label for="form2">Branch</label>
-                  </div>
-                  <div class="md-form">
-                    <i class="far fa-calendar-alt prefix black-text"></i>
-                    <input type="text" id="form4" class="form-control" />
-                    <label for="form4">Passout Year</label>
-                  </div>
-                  <div class="text-center my-3">
-                    <button class="btn btn-indigo btn-block">
-                      Find Alumni
-                    </button>
-                  </div>
+        <!--Grid row-->
+        <div class="row d-flex align-items-center justify-content-center">
+          <!--Grid column-->
+          <div class="col-md-6 col-xl-5">
+            <!--Form-->
+            <div class="card">
+              <div class="card-body z-depth-2 px-4">
+                <div class="md-form mt-3">
+                  <i class="fa fa-user prefix black-text"></i>
+                  <input type="text" id="form3" class="form-control" />
+                  <label for="form3">Name</label>
                 </div>
-              </div>
-              <!--/.Form-->
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </div>
-        <!-- Content -->
-      </div>
-      <!-- Mask & flexbox options-->
-    </section>
-    <!-- Full Page Intro -->
-
-    <!-- Main navigation -->
-
-    <!--Section: Content-->
-    <div class="container1">
-      <section class="dark-grey-text p-5">
-        <!-- Grid row -->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-5 mb-4 mb-md-0">
-            <div class="view1">
-              <img
-                src="https://mdbootstrap.com/img/illustrations/undraw_Group_chat_unwm.svg"
-                class="img-fluid"
-                alt="smaple image"
-              />
-            </div>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-7 mb-lg-0 mb-4">
-            <!-- Form -->
-            <form class="" action="">
-              <!-- Section heading -->
-              <h3 class="font-weight-bold my-3">TKMCEAA News</h3>
-
-              <p class="text-muted mb-4 pb-2">
-                To foster the relationship between the Alumni and the Alma mater
-                and to keep Alumni informed about the growth and development of
-                institution , the Institute publishes Alumni Times annually.
-              </p>
-
-              <input
-                type="button"
-                class="btn-primary"
-                onClick="parent.open('https://drive.google.com/file/d/1-YmqcFtLLQuM8rSzClQt2MZDBQXMOrI0/view')"
-                value="Alumni Times 2018"
-              />
-
-              <br />
-
-              <br />
-
-              <div class="input-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Enter your email address"
-                  aria-label="Enter your email address"
-                  aria-describedby="button-addon2"
-                />
-                <div class="input-group-append">
-                  <button
-                    class="btn btn-md btn-primary rounded-right m-0 px-3 py-2 z-depth-0 waves-effect"
-                    type="submit"
-                    id="button-addon2"
-                  >
-                    Submit
+                <div class="md-form">
+                  <i class="fas fa-book-open prefix black-text"></i>
+                  <input type="text" id="form2" class="form-control" />
+                  <label for="form2">Branch</label>
+                </div>
+                <div class="md-form">
+                  <i class="far fa-calendar-alt prefix black-text"></i>
+                  <input type="text" id="form4" class="form-control" />
+                  <label for="form4">Passout Year</label>
+                </div>
+                <div class="text-center my-3">
+                  <button class="btn btn-indigo btn-block">
+                    Find Alumni
                   </button>
                 </div>
               </div>
-              <small class="form-text black-text"
-                ><strong
-                  >* Leave your email addres to be notified first.</strong
-                ></small
-              >
-            </form>
-            <!-- Form -->
+            </div>
+            <!--/.Form-->
           </div>
-          <!-- Grid column -->
+          <!--Grid column-->
         </div>
-        <!-- Grid row -->
-      </section>
-      <!--Section: Content-->
+        <!--Grid row-->
+      </div>
+      <!-- Content -->
     </div>
-    <footer class="text-left" style="background-color: #457b9d;padding-top: 20px;padding-bottom: 20px;">
-      <div class="container text-center" data-aos="slide-up" style="max-height: auto;">
-          <div class="row">
-              <div class="col-xl-3 pulse animated"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH1XoN-FxltHfV-q7uWs7qW2jr7t-GwmU&amp;q=tkm+kollam&amp;zoom=15" width="100%" height="450" style="width: 250px;height: 200px;"></iframe></div>
-              <div
-                  class="col-xl-2" style="margin-top: 0px;padding-top: 31px;padding-right: 0px;padding-left: 0px;">
-                  <p class="pulse animated" style="font-family: Lora, serif;color: rgb(255,255,255);height: 126px;">GET IN TOUCH<br>TKM College of Engineering,<br>Karicode,<br>Kollam-691005,<br>Kerala,India<br><br></p><a class="pulse animated footerlist" href="#" style="font-family: Lora, serif;font-weight: bold;">Contact</a></div>
-          <div class="col-xl-2 text-left pulse animated"
-              style="width: 155px;"><img class="img-fluid" src="HEADFOOT/assets/img/tkmLogo%20black.png" style="padding-top: 24px;"></div>
-          <div class="col" style="padding-top: 24px;"><span style="color: rgb(255,255,255);font-family: Cabin, sans-serif;">Useful links</span>
-              <ul class="list-unstyled">
-                  <li class="footerlist"><a class="footerlist" href="#">About</a></li>
-                  <li><a class="footerlist" href="#">Placement</a></li>
-                  <li><a class="footerlist" href="#">Alumni</a></li>
-                  <li><a class="footerlist" href="#">Department</a></li>
-              </ul>
-          </div>
-          <div class="col pulse animated" style="margin: 0px;margin-top: 0px;padding-top: 21px;"><span style="color: rgb(255,255,255);font-family: Cabin, sans-serif;">Useful links</span>
-              <ul class="list-unstyled">
-                  <li class="footerlist"><a class="footerlist" href="#">About</a></li>
-                  <li><a class="footerlist" href="#">Placement</a></li>
-                  <li><a class="footerlist" href="#">Alumni</a></li>
-                  <li><a class="footerlist" href="#">Department</a></li>
-              </ul>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col">
-              <p class="pulse animated" style="color: rgb(255,255,255);">Copyright ©&nbsp;TKMCE 2020</p>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col pulse animated"><a href="#" style="padding-right: 2px;padding-left: 2px;"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter" style="padding-right: 2px;padding-left: 2px;"></i></a></div>
-      </div>
-      </div>
-    </footer>
-    <script src="HEADFOOT/assets/js/jquery.min.js"></script>
-    <script src="HEADFOOT/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="HEADFOOT/assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="HEADFOOT/assets/js/grayscale.js"></script>
-    
+    <!-- Mask & flexbox options-->
+  </section>
+  <!-- Full Page Intro -->
 
-    <script type="text/javascript" src="js/alumni2.js"></script>
-  </body>
+  <!-- Main navigation -->
+
+  <!--Section: Content-->
+  <div class="container1">
+    <section class="dark-grey-text p-5">
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-5 mb-4 mb-md-0">
+          <div class="view1">
+            <img src="https://mdbootstrap.com/img/illustrations/undraw_Group_chat_unwm.svg" class="img-fluid"
+              alt="smaple image" />
+          </div>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-7 mb-lg-0 mb-4">
+          <!-- Form -->
+          <form class="" action="">
+            <!-- Section heading -->
+            <h3 class="font-weight-bold my-3">TKMCEAA News</h3>
+
+            <p class="text-muted mb-4 pb-2">
+              To foster the relationship between the Alumni and the Alma mater
+              and to keep Alumni informed about the growth and development of
+              institution , the Institute publishes Alumni Times annually.
+            </p>
+
+            <input type="button" class="btn-primary"
+              onClick="parent.open('https://drive.google.com/file/d/1-YmqcFtLLQuM8rSzClQt2MZDBQXMOrI0/view')"
+              value="Alumni Times 2018" />
+
+            <br />
+
+            <br />
+
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email address"
+                aria-label="Enter your email address" aria-describedby="button-addon2" />
+              <div class="input-group-append">
+                <button class="btn btn-md btn-primary rounded-right m-0 px-3 py-2 z-depth-0 waves-effect" type="submit"
+                  id="button-addon2">
+                  Submit
+                </button>
+              </div>
+            </div>
+            <small class="form-text black-text"><strong>* Leave your email addres to be notified first.</strong></small>
+          </form>
+          <!-- Form -->
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </section>
+    <!--Section: Content-->
+  </div>
+  <footer class="text-left" style="background-color: #457b9d;padding-top: 20px;padding-bottom: 20px;">
+    <div class="container text-center" data-aos="slide-up" style="max-height: auto;">
+      <div class="row">
+        <div class="col-xl-3 pulse animated"><iframe allowfullscreen="" frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDH1XoN-FxltHfV-q7uWs7qW2jr7t-GwmU&amp;q=tkm+kollam&amp;zoom=15"
+            width="100%" height="450" style="width: 250px;height: 200px;"></iframe></div>
+        <div class="col-xl-2" style="margin-top: 0px;padding-top: 31px;padding-right: 0px;padding-left: 0px;">
+          <a class="pulse animated footerlist" href="#"
+            style="font-family: Lora, serif;font-weight: bold;">Contact</a><br><br>
+          <p class="pulse animated" style="font-family: Lora, serif;color: rgb(255,255,255);height: 126px;"><br>TKM
+            College of Engineering,<br>Karicode,<br>Kollam-691005,<br>Kerala,India<br><br></p>
+        </div>
+        <div class="col-xl-3 pulse animated">
+          <img class="img-fluid" src="HEADFOOT/assets/img/tkmLogo%20black.png"
+            style="padding-top: 24px; height: 75%; width: auto">
+        </div>
+
+        <div class="col" style="padding-top: 2px;"><span
+            style="color: #000;font-family: Cabin, sans-serif;"><strong>Campus</strong></span><br><br>
+          <ul class="list-unstyled">
+            <li class="footerlist"><a class="footerlist" href="#">About</a></li>
+            <li><a class="footerlist" href="#">Placement</a></li>
+            <li><a class="footerlist" href="#">Alumni</a></li>
+            <li><a class="footerlist" href="#">Department</a></li>
+            <li><a class="footerlist" href="#">College</a></li>
+            <li><a class="footerlist" href="#">Clubs</a></li>
+            <li><a class="footerlist" href="#">Hostels</a></li>
+            <li><a class="footerlist" href="#">Lab</a></li>
+          </ul>
+        </div>
+        <div class="col pulse animated" style="margin: 0px;margin-top: 0px;padding-top: 2px;">
+          <span style="color: #000;font-family: Cabin, sans-serif;"><strong>Others</strong></span><br><br>
+          <ul class="list-unstyled">
+            <li class="footerlist"><a class="footerlist" href="#">Faculty</a></li>
+            <li><a class="footerlist" href="#">Staff</a></li>
+            <li><a class="footerlist" href="#">Exam</a></li>
+            <li><a class="footerlist" href="#">IV</a></li>
+            <li><a class="footerlist" href="#">Camp</a></li>
+            <li><a class="footerlist" href="#">Parents</a></li>
+            <li><a class="footerlist" href="#">Results</a></li>
+            <li><a class="footerlist" href="#">Activities</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <p class="pulse animated" style="color: rgb(255,255,255);">Copyright ©&nbsp;TKMCE 2020</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pulse animated"><a href="#" style="padding-right: 2px;padding-left: 2px;"><i
+              class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"
+              style="padding-right: 2px;padding-left: 2px;"></i></a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="HEADFOOT/assets/js/jquery.min.js"></script>
+  <script src="HEADFOOT/assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="HEADFOOT/assets/js/bs-init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="HEADFOOT/assets/js/grayscale.js"></script>
+
+
+  <script type="text/javascript" src="js/alumni2.js"></script>
+</body>
+
 </html>
